@@ -1,25 +1,169 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Henny+Penny&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* --------------------------------------------- Alert Bar */
 
-/* Navbar */
+.alert {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}
+
+/* ----------------------------------------- Navbar */
+
+.search {
+    position: absolute;
+    left: 40.5%;
+}
+
 
 
 
 /* Hero Section */
 
 #hero {
-    height: 400px;
-    width: 40%;
+    height: 260px;
+    width: 28%;
     background: url(../images/premierthreads-high-resolution-logo.webp) no-repeat center center/cover;
     position: absolute;
-    top: 28%;
+    top: 24%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+.free-delivery {
+    display: flex;
+    position: absolute;
+    top: 12%;
+    left: 4%;
+    font-family: "Roberto", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
 
+.kids-women {
+    display: flex;
+    position: absolute;
+    top: 12%;
+    right: 4%;
+    font-family: "Roberto", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
 
+.returns {
+    display: flex;
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    font-family: "Roberto", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.stock {
+    display: flex;
+    position: absolute;
+    top: 12%;
+    right: 25%;
+    font-family: "Roberto", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* -------------------------------------------Homepage Kits */
+
+.teams-lpl {
+    position: absolute;
+    display: flex;
+    object-fit: contain;
+    flex-wrap: wrap;
+    top: 45%;
+    left: 10%;
+    background: url(../images/Liverpool\ Home.jpg) no-repeat center center/cover;
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+}
+
+.btn-lpl {
+    position: absolute;
+    top: 80%;
+    left: 16%;
+}
+
+.teams-united {
+    position: absolute;
+    display: flex;
+    object-fit: contain;
+    flex-wrap: wrap;
+    top: 45%;
+    right: 10%;
+    background: url(../images/United\ Home.jpg) no-repeat center center/cover;
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+}
+
+.btn-utd {
+    position: absolute;
+    top: 80%;
+    right: 16%;
+}
+
+/* -------------------------------------------- Signup Form */
+
+.signup-form {
+    display: block;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    background-color: #343a40;
+}
+
+.signup-form h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-bottom: 5px;
+}
+.form-group button {
+    width: 30%;
+    color: #28a745;
+    background-image: none;
+    background-color: #343a40;
+    border-color: #28a745;
+    font-size: 14px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.form-group button:hover {
+        color: #fff;
+        background-color: #28a745;
+        border-color: #28a745;
+    }
 
 
 /* Footer */
