@@ -76,6 +76,8 @@
 .new-stock-container {
     display: flex;
     position: absolute;
+    flex-wrap: nowrap;
+    overflow-x: auto;
     top: 28%;
     left: 38%;
     width: 50%;
@@ -178,6 +180,7 @@
 #social a {
     color: #28a745;
     font-size: 1rem;
+    height: 10px;
 }
 
 footer {
@@ -186,4 +189,129 @@ footer {
     bottom:20px;
     height:30px;
     width:100%;
+}
+
+#social a:hover {
+    transform: scale(1.50);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+/* ----------------------------------------- Arsenal */
+
+.arsenal {
+    display: flex;
+    position: absolute;
+    left: 46%;
+    top: 12%;
+}
+
+.arsenal img {
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    padding: 5px;  
+}
+
+.store-container {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.store-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Horizontal scrollbar */
+    gap: 20px; /* Spacing between items */
+    padding-bottom: 10px;
+}
+
+.item {
+    flex: 0 0 auto; /* Prevent items from shrinking */
+    width: 200px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item p {
+    margin: 10px 0 0;
+    color: #333;
+}
+
+.store-container2 {
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 15%;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.store-container2 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.items-container2 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Horizontal scrollbar */
+    gap: 20px; /* Spacing between items */
+    padding-bottom: 10px;
+}
+
+.item2 {
+    flex: 0 0 auto; /* Prevent items from shrinking */
+    width: 200px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 5px;
+}
+.item2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item2 p {
+    margin: 10px 0 0;
+    color: #333;
+}
+
+.rice-russo img {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
 }
